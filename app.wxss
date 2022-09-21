@@ -1,0 +1,19 @@
+/* app.wxss */
+@font-face {
+  font-family: Alternate;
+  src: url('./assets/DIN_Alternate_Bold.ttf');
+  font-weight: bold;
+}
+page,
+view {
+  box-sizing: border-box;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 

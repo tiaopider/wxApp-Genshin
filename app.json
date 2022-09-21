@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/data/data",
+    "pages/bug/bug"
+  ],
+  "window":{
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "原神抽卡分析",
+    "navigationBarTextStyle":"black"
+  },
+  "resolveAlias": {
+    "~/*": "/*",
+    "@utils/*": "utils/*",
+    "@assets/*": "assets/*",
+    "@services/*": "services/*",
+    "@components/*": "components/*"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
